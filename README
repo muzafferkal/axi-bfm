@@ -1,0 +1,7 @@
+AXI3 initiator and target Bus Functional Models.
+These were done to replace Xilinx AXI VIP which required a license but they no longer do.
+So if you're doing XILINX FPGA work, it might be a good idea to use them.
+At this point I don't mean to maintain these any longer but let me know if you have a need.
+
+
+http://blog.dspia.com/2015/08/05/open-source-axi3-bus-functional-model-bfm/
