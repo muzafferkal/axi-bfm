@@ -265,7 +265,7 @@ module axi3_master_bfm
             data[count*axi_mgp_data_width +: axi_mgp_data_width] = RDATA;
             count = count + 1;
           end
-          if (RLAST) begin
+          if (RLAST && RVALID) begin
             RREADY <= 0;
             response = RRESP;
             break;
